@@ -36,7 +36,7 @@ def process_orders(app):
             json=payload
         )
 
-        app.logger.info("Response from endpoint: " + response.text)
+        app.logger.info("Response from endpointt: " + response.text)
 
         response.raise_for_status()
 
